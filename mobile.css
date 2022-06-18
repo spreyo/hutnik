@@ -1,0 +1,66 @@
+body{
+    background-color: #DFD3C3;
+    overflow:hidden;
+  }
+  
+  .rootDiv{
+    display: grid; 
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . . . . ."
+      ". . . . . . ."
+      ". . timer . . . ."
+      ". . . . . . ."
+      ". . . . . . .";
+  }
+  
+  .days{
+    grid-area: days;
+  }
+  .hours{
+    grid-area: hours;
+  }
+  .minutes{
+    grid-area: minutes;
+  }
+  .seconds{
+    grid-area: seconds;
+  }
+  .timer{
+    grid-area: timer;
+  }
+  .timer{
+    width: 60vw;
+    height: 20vw;
+    border: #C7B198 solid 5px;
+    background-color: #F0ECE3;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . . . . . . . ."
+      ". . . . . . . . ."
+      ". days daysSep hours hoursSep minutes minutesSep seconds ."
+      ". . . . . . . . ."
+      ". . . . . . . . .";
+      transition: 1s ease;
+  }
+  
+  .daysSep{grid-area:daysSep} .hoursSep{grid-area:hoursSep} .minutesSep{grid-area:minutesSep}
+  
+  .days,.hours,.minutes,.seconds{
+    color:#C7B198;
+    font-size: 8vw;
+    transition: 2s ease;
+  }
+  
+  .daysSep, .hoursSep, .minutesSep{
+    color: #596E79;
+    font-size: 8vw;
+    transition: 2s ease;
+
+  }

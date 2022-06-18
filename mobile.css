@@ -64,3 +64,11 @@ body{
     transition: 2s ease;
 
   }
+
+  .speakermanCopy{
+    font-size: 1vw;
+    color: white;
+    text-align: end;
+    position: absolute;
+    top:80%;
+  }

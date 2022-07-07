@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.00513f2e.css",
-    "main.js": "./static/js/main.aa7d4e7b.js",
+    "main.js": "./static/js/main.4f5d53d7.js",
     "static/js/787.342b0756.chunk.js": "./static/js/787.342b0756.chunk.js",
     "static/media/hutnik2.jfif": "./static/media/hutnik2.defccd1965e112eada3d.jfif",
     "static/media/logo.svg": "./static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "./index.html",
     "main.00513f2e.css.map": "./static/css/main.00513f2e.css.map",
-    "main.aa7d4e7b.js.map": "./static/js/main.aa7d4e7b.js.map",
+    "main.4f5d53d7.js.map": "./static/js/main.4f5d53d7.js.map",
     "787.342b0756.chunk.js.map": "./static/js/787.342b0756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.00513f2e.css",
-    "static/js/main.aa7d4e7b.js"
+    "static/js/main.4f5d53d7.js"
   ]
 }
